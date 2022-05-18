@@ -23,6 +23,7 @@ class Main{
             String add=sc.nextLine();
             emps[i]=new Employee(name,year,add);
         }
+        
         System.out.println("Name Year-of-joining Address ");
         for(int i=0;i<3;i++){
             emps[i].printDetails();
